@@ -1,6 +1,6 @@
 {
-  "name": "react-owl-carousel2",
-  "version": "0.3.0",
+  "name": "@grandit/react-owl-carousel2",
+  "version": "0.3.4",
   "description": "React.js + Owl Carousel 2",
   "author": "Florin Nitoi <florin.nitoi@gmail.com>",
   "license": "ISC",
@@ -64,5 +64,8 @@
     "webpack-dev-middleware": "~1.5.1",
     "webpack-hot-middleware": "~2.6.2"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "directories": {
+    "example": "example"
+  }
 }

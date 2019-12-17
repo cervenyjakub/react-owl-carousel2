@@ -358,7 +358,7 @@
 				current = 0,
 				coordinates = [];
 
-			while (++iterator < size) {
+			while (++iterator <= size) {
 				previous = coordinates[iterator - 1] || 0;
 				current = this._widths[this.relative(iterator)] + this.settings.margin;
 				coordinates.push(previous + current * rtl);
